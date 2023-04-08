@@ -35,7 +35,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }: typeof FeatureList[number]) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
