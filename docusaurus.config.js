@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+const lightCodeTheme = require('prism-react-renderer/themes/vsDark');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -64,7 +64,6 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -76,9 +75,13 @@ const config = {
             position: 'left',
             label: 'Code Convention',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: 'https://upscalix.com.au/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/upscalix/docusaurus-upscalix',
             label: 'GitHub',
             position: 'right',
           },
@@ -118,11 +121,11 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'https://upscalix.com.au/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/upscalix/docusaurus-upscalix',
               },
             ],
           },
